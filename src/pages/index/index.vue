@@ -2,5 +2,11 @@
 </script>
 
 <template>
-  <text>Hello World</text>
+  <text class="hello">Hello World</text>
 </template>
+
+<style lang="css">
+  .hello {
+    color: "red";
+  }
+</style>
