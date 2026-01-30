@@ -7,6 +7,6 @@
 
 <style lang="css">
   .hello {
-    color: "red";
+    color: red;
   }
 </style>
