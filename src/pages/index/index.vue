@@ -6,7 +6,5 @@
 </template>
 
 <style lang="css">
-  .hello {
-    color: red;
-  }
+  @import "./hello.css";
 </style>
