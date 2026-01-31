@@ -11,3 +11,7 @@
     sitemapLocation: "sitemap.json",
   });
 </script>
+
+<style lang="css">
+  @import "./app.css";
+</style>

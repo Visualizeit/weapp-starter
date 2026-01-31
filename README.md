@@ -24,6 +24,7 @@ pnpm open             # Open WeChat DevTools
 - **Vite**: Fast build tool and dev server
 - **Wevu**: Vue components for mini programs
 - **JSON Configuration**: Use `<json>` blocks for page config
+- **Tailwind CSS 4**: Utility-first CSS framework for styling
 
 ## References
 
