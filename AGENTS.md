@@ -1,8 +1,8 @@
 ## 项目概述
 
-微信小程序项目，使用 wevu（Vue 3 小程序运行时）+ TailwindCSS。
+微信小程序项目，使用 wevu（Vue 3 小程序运行时）+ TailwindCSS。包管理器使用 **pnpm**。
 
-## Communication Style
+## 交流风格
 
 In all interactions and commit messages, be extremely concise and sacrifice grammar for the sake of concision.
 
@@ -56,14 +56,14 @@ In all interactions and commit messages, be extremely concise and sacrifice gram
 - 组件的 JSON 配置需包含 `"component": true`
 - 注意路径大小写敏感
 
-### Store 状态管理
+### 状态管理
 
 - 使用 `defineStore(id, setup)` 定义 store
 - 从 `wevu` 导入，不支持 `wevu/store` 子路径
 - 使用 `storeToRefs()` 解构时保持响应性
 - 支持 `$patch()`、`$reset()`（仅 Options Store）、`$subscribe()`、`$onAction()`
 
-### TailwindCSS
+### 样式
 
 - rem 单位自动转换为 rpx
 - 小程序选择器限制仍然适用
