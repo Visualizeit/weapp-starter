@@ -12,18 +12,16 @@
     "src/**/*.tsx",
     "src/**/*.js",
     "src/**/*.jsx",
-    "src/**/*.mts",
-    "src/**/*.cts",
     "src/**/*.vue",
     "src/**/*.json",
+    "*.d.ts",
     "src/**/*.d.ts",
     "types/**/*.d.ts",
-    "env.d.ts",
-    "vite.config.ts",
-    "vite.config.*.ts",
     "*.config.ts",
     "config/**/*.ts",
-    "scripts/**/*.ts"
+    "scripts/**/*.ts",
+    "vite.config.ts",
+    "vite.config.*.ts"
   ],
   "vueCompilerOptions": {
     "plugins": ["weapp-vite/volar"],
