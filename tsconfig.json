@@ -1,14 +1,32 @@
 {
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ],
-  "files": [],
+  "extends": "@total-typescript/tsconfig/bundler/dom/app",
   "compilerOptions": {
-    "strictNullChecks": true
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["miniprogram-api-typings", "node"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.mts",
+    "src/**/*.cts",
+    "src/**/*.vue",
+    "src/**/*.json",
+    "src/**/*.d.ts",
+    "types/**/*.d.ts",
+    "env.d.ts",
+    "vite.config.ts",
+    "vite.config.*.ts",
+    "*.config.ts",
+    "config/**/*.ts",
+    "scripts/**/*.ts"
+  ],
+  "vueCompilerOptions": {
+    "plugins": ["weapp-vite/volar"],
+    "lib": "wevu"
   }
 }
