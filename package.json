@@ -15,7 +15,8 @@
     "open": "weapp-vite open",
     "check": "ultracite check",
     "fix": "ultracite fix",
-    "prepare": "lefthook install"
+    "prepare": "lefthook install",
+    "postinstall": "weapp-tw patch"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.15",
@@ -35,7 +36,8 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "lefthook"
+      "lefthook",
+      "weapp-tailwindcss"
     ]
   }
 }
