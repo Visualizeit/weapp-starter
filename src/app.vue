@@ -2,11 +2,10 @@
   import routes from "weapp-vite/auto-routes";
 
   defineAppJson({
-    // @ts-expect-error readonly array
     pages: routes.pages,
     window: {
       navigationBarTitleText: "Weapp Starter",
-      navigationBarBackgroundColor: "#0969FF",
+      navigationBarBackgroundColor: "#0969ff",
       navigationBarTextStyle: "white",
     },
     style: "v2",
