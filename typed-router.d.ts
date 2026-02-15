@@ -1,8 +1,12 @@
+/* eslint-disable */
+// biome-ignore lint: disable
+// oxlint-disable
+// ------
 // 由 weapp-vite 自动生成，请勿编辑。
 declare module "weapp-vite/auto-routes" {
-  export type AutoRoutesPages = readonly ["pages/index/index"];
-  export type AutoRoutesEntries = readonly ["pages/index/index"];
-  export type AutoRoutesSubPackages = readonly [];
+  export type AutoRoutesPages = ["pages/index/index"];
+  export type AutoRoutesEntries = ["pages/index/index"];
+  export type AutoRoutesSubPackages = [];
   export type AutoRoutesSubPackage = AutoRoutesSubPackages[number];
   export interface AutoRoutes {
     readonly pages: AutoRoutesPages;

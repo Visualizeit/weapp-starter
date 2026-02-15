@@ -20,18 +20,18 @@
   "devDependencies": {
     "@biomejs/biome": "^2.3.15",
     "@tailwindcss/postcss": "^4.1.18",
+    "@total-typescript/tsconfig": "^1.0.4",
     "@types/node": "^25.2.3",
     "lefthook": "^2.1.1",
     "miniprogram-api-typings": "^5.0.1",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
-    "@total-typescript/tsconfig": "^1.0.4",
     "typescript": "^5.9.3",
-    "ultracite": "^7.1.5",
+    "ultracite": "^7.2.1",
     "vue-tsc": "^3.2.4",
     "weapp-tailwindcss": "^4.9.8",
-    "weapp-vite": "^6.6.4",
-    "wevu": "^6.6.4"
+    "weapp-vite": "^6.6.6",
+    "wevu": "^6.6.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
