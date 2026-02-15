@@ -6,6 +6,12 @@ export default defineConfig(() => ({
   weapp: {
     srcRoot: "src",
     autoRoutes: true,
+    autoImportComponents: {
+      globs: ["components/**/*.vue", "components/**/*.wxml"],
+      typedComponents: true,
+      vueComponents: true,
+      vueComponentsModule: "wevu",
+    },
   },
   plugins: [
     UnifiedViteWeappTailwindcssPlugin({

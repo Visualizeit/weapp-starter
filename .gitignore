@@ -36,3 +36,8 @@ dist-web
 
 dist-plugin
 dist/web
+
+# generated types
+typed-router.d.ts
+typed-components.d.ts
+components.d.ts
