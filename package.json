@@ -31,8 +31,8 @@
     "ultracite": "^7.2.3",
     "vue-tsc": "^3.2.4",
     "weapp-tailwindcss": "^4.10.2",
-    "weapp-vite": "^6.6.7",
-    "wevu": "^6.6.7"
+    "weapp-vite": "^6.6.8",
+    "wevu": "^6.6.8"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

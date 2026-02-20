@@ -45,11 +45,11 @@ importers:
         specifier: ^4.10.2
         version: 4.10.2(tailwindcss@4.2.0)
       weapp-vite:
-        specifier: ^6.6.7
-        version: 6.6.7(@types/node@25.3.0)(jiti@2.6.1)(miniprogram-api-typings@5.0.1)(yaml@2.8.2)
+        specifier: ^6.6.8
+        version: 6.6.8(@types/node@25.3.0)(jiti@2.6.1)(miniprogram-api-typings@5.0.1)(yaml@2.8.2)
       wevu:
-        specifier: ^6.6.7
-        version: 6.6.7(miniprogram-api-typings@5.0.1)(rolldown@1.0.0-rc.5)(typescript@5.9.3)
+        specifier: ^6.6.8
+        version: 6.6.8(miniprogram-api-typings@5.0.1)(rolldown@1.0.0-rc.5)(typescript@5.9.3)
 
 packages:
 
@@ -999,8 +999,8 @@ packages:
   '@wevu/api@0.1.1':
     resolution: {integrity: sha512-l/OXMJPsKVKfTwnT9fJc1C+qJPYQo6BfUwnp/NEhLLPFsT5k1uup9CsTygg6cHUx6rQjjgqUf9duPKT/Kw0Q2w==}
 
-  '@wevu/compiler@6.6.7':
-    resolution: {integrity: sha512-9++HadIQwN1pZXaGwXS0x/1qj6tnJZR763KM65tui5wGGppVDHx744oj2uzPUJwHWgIKb62uSGXM2E9nAFGP5g==}
+  '@wevu/compiler@6.6.8':
+    resolution: {integrity: sha512-2cGQjtBp2xGqRjVsjShLBu8xuTjARQSob+M9qp7NnWgAaqIbxU6Qmr8MqcsiBvKUCa09y7uAKyGe7OBYU+huaw==}
 
   acorn@8.16.0:
     resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
@@ -1183,8 +1183,8 @@ packages:
       oxc-resolver:
         optional: true
 
-  electron-to-chromium@1.5.286:
-    resolution: {integrity: sha512-9tfDXhJ4RKFNerfjdCcZfufu49vg620741MNs26a9+bhLThdB+plgMeou98CAaHu/WATj2iHOOHTp1hWtABj2A==}
+  electron-to-chromium@1.5.302:
+    resolution: {integrity: sha512-sM6HAN2LyK82IyPBpznDRqlTQAtuSaO+ShzFiWTvoMJLHyZ+Y39r8VMfHzwbU8MVBzQ4Wdn85+wlZl2TLGIlwg==}
 
   emojis-list@3.0.0:
     resolution: {integrity: sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==}
@@ -2068,8 +2068,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  weapp-vite@6.6.7:
-    resolution: {integrity: sha512-WFc0OaIYSa9nryoKASSz5V9aGDPUPZKDHNj6SiZ+sdrPGOkUUN+MpJ+ujXw/nAbJX8nNLaYsitYFMG0zroQajw==}
+  weapp-vite@6.6.8:
+    resolution: {integrity: sha512-sOU3h8+rzDleORxry0jP9hVLDUzkmeDTdQjJ/eD4LJ1WqifjZbON4A5xyPhXDjy5JBYdA8mf06PSghoYNCDf3Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -2080,8 +2080,8 @@ packages:
   webpack-virtual-modules@0.6.2:
     resolution: {integrity: sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==}
 
-  wevu@6.6.7:
-    resolution: {integrity: sha512-dULpGEEsJN4slIiUhEQoMxvTuRZF0SVCTdbGzwuQj2iHtgbcTngrHu2K2Rf71+4WSCRb6cdX+7WPXxqiVh+CmA==}
+  wevu@6.6.8:
+    resolution: {integrity: sha512-I/Zt2PoNWoi9OAceQZF6BzExXkiZnAaR/OlfxzhMPxRRGC/EWckUT59L3yDD7g1bkRmKgtqF1U9/vaxVl/ku2Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       miniprogram-api-typings: ^5.0.0
@@ -3038,7 +3038,7 @@ snapshots:
       '@mini-types/alipay': 3.0.14
       miniprogram-api-typings: 5.0.1
 
-  '@wevu/compiler@6.6.7(rolldown@1.0.0-rc.5)(typescript@5.9.3)':
+  '@wevu/compiler@6.6.8(rolldown@1.0.0-rc.5)(typescript@5.9.3)':
     dependencies:
       '@babel/generator': 7.29.1
       '@babel/parser': 7.29.0
@@ -3101,7 +3101,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.0
       caniuse-lite: 1.0.30001770
-      electron-to-chromium: 1.5.286
+      electron-to-chromium: 1.5.302
       node-releases: 2.0.27
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
@@ -3214,7 +3214,7 @@ snapshots:
 
   dts-resolver@2.1.3: {}
 
-  electron-to-chromium@1.5.286: {}
+  electron-to-chromium@1.5.302: {}
 
   emojis-list@3.0.0: {}
 
@@ -4135,7 +4135,7 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  weapp-vite@6.6.7(@types/node@25.3.0)(jiti@2.6.1)(miniprogram-api-typings@5.0.1)(yaml@2.8.2):
+  weapp-vite@6.6.8(@types/node@25.3.0)(jiti@2.6.1)(miniprogram-api-typings@5.0.1)(yaml@2.8.2):
     dependencies:
       '@babel/core': 7.29.0
       '@babel/generator': 7.29.1
@@ -4172,7 +4172,7 @@ snapshots:
       vue: 3.5.28(typescript@5.9.3)
       vue-tsc: 3.2.4(typescript@5.9.3)
       weapp-ide-cli: 5.0.4
-      wevu: 6.6.7(miniprogram-api-typings@5.0.1)(rolldown@1.0.0-rc.5)(typescript@5.9.3)
+      wevu: 6.6.8(miniprogram-api-typings@5.0.1)(rolldown@1.0.0-rc.5)(typescript@5.9.3)
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@types/node'
@@ -4197,9 +4197,9 @@ snapshots:
 
   webpack-virtual-modules@0.6.2: {}
 
-  wevu@6.6.7(miniprogram-api-typings@5.0.1)(rolldown@1.0.0-rc.5)(typescript@5.9.3):
+  wevu@6.6.8(miniprogram-api-typings@5.0.1)(rolldown@1.0.0-rc.5)(typescript@5.9.3):
     dependencies:
-      '@wevu/compiler': 6.6.7(rolldown@1.0.0-rc.5)(typescript@5.9.3)
+      '@wevu/compiler': 6.6.8(rolldown@1.0.0-rc.5)(typescript@5.9.3)
       miniprogram-api-typings: 5.0.1
       vue: 3.5.28(typescript@5.9.3)
     transitivePeerDependencies:
