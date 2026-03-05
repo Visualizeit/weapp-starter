@@ -1,5 +1,11 @@
 {
   "$schema": "https://vite.icebreaker.top/theme.json",
-  "light": {},
-  "dark": {}
+  "light": {
+    "navigationBarBackgroundColor": "#0969ff",
+    "navigationBarTextStyle": "black"
+  },
+  "dark": {
+    "navigationBarBackgroundColor": "#1a1a1a",
+    "navigationBarTextStyle": "white"
+  }
 }

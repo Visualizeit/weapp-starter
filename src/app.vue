@@ -5,12 +5,14 @@
     pages: routes.pages,
     window: {
       navigationBarTitleText: "Weapp Starter",
-      navigationBarBackgroundColor: "#0969ff",
-      navigationBarTextStyle: "white",
+      navigationBarBackgroundColor: "@navigationBarBackgroundColor",
+      navigationBarTextStyle: "@navigationBarTextStyle",
     },
+    darkmode: true,
     style: "v2",
     componentFramework: "glass-easel",
     sitemapLocation: "sitemap.json",
+    themeLocation: "theme.json",
   });
 </script>
 
