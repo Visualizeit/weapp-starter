@@ -1,43 +1,44 @@
 {
-  "name": "weapp-starter",
-  "type": "module",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Weapp Starter",
-  "author": "Visualizeit",
-  "license": "MIT",
-  "keywords": [],
-  "scripts": {
-    "dev": "weapp-vite dev",
-    "dev:open": "weapp-vite dev -o",
-    "build": "weapp-vite build",
-    "typecheck": "vue-tsc --noEmit",
-    "open": "weapp-vite open",
-    "check": "ultracite check",
-    "fix": "ultracite fix",
-    "prepare": "lefthook install",
-    "postinstall": "weapp-tw patch"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.4.5",
-    "@tailwindcss/postcss": "^4.2.1",
-    "@total-typescript/tsconfig": "^1.0.4",
-    "@types/node": "^25.3.3",
-    "lefthook": "^2.1.2",
-    "miniprogram-api-typings": "^5.1.1",
-    "postcss": "^8.5.8",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
-    "ultracite": "^7.2.4",
-    "vue-tsc": "^3.2.5",
-    "weapp-tailwindcss": "^4.10.3",
-    "weapp-vite": "^6.7.3",
-    "wevu": "^6.7.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "lefthook",
-      "weapp-tailwindcss"
-    ]
-  }
+    "name": "weapp-starter",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Weapp Starter",
+    "keywords": [],
+    "license": "MIT",
+    "author": "Visualizeit",
+    "type": "module",
+    "scripts": {
+        "dev": "weapp-vite dev",
+        "dev:open": "weapp-vite dev -o",
+        "build": "weapp-vite build",
+        "typecheck": "vue-tsc --noEmit",
+        "open": "weapp-vite open",
+        "check": "ultracite check",
+        "fix": "ultracite fix",
+        "prepare": "lefthook install",
+        "postinstall": "weapp-tw patch"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4.2.2",
+        "@total-typescript/tsconfig": "^1.0.4",
+        "@types/node": "^25.5.0",
+        "lefthook": "^2.1.4",
+        "miniprogram-api-typings": "^5.1.2",
+        "oxfmt": "^0.41.0",
+        "oxlint": "^1.56.0",
+        "postcss": "^8.5.8",
+        "tailwindcss": "^4.2.2",
+        "typescript": "^5.9.3",
+        "ultracite": "7.3.2",
+        "vue-tsc": "^3.2.6",
+        "weapp-tailwindcss": "^4.10.3",
+        "weapp-vite": "^6.11.1",
+        "wevu": "^6.11.1"
+    },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "lefthook",
+            "weapp-tailwindcss"
+        ]
+    }
 }

@@ -1,21 +1,21 @@
 <script setup lang="ts">
-  import routes from "weapp-vite/auto-routes";
+import { pages } from 'weapp-vite/auto-routes'
 
-  defineAppJson({
-    pages: routes.pages,
-    window: {
-      navigationBarTitleText: "Weapp Starter",
-      navigationBarBackgroundColor: "@navigationBarBackgroundColor",
-      navigationBarTextStyle: "@navigationBarTextStyle",
-    },
+defineAppJson({
+    componentFramework: 'glass-easel',
     darkmode: true,
-    style: "v2",
-    componentFramework: "glass-easel",
-    sitemapLocation: "sitemap.json",
-    themeLocation: "theme.json",
-  });
+    pages,
+    sitemapLocation: 'sitemap.json',
+    style: 'v2',
+    themeLocation: 'theme.json',
+    window: {
+        navigationBarBackgroundColor: '@navigationBarBackgroundColor',
+        navigationBarTextStyle: '@navigationBarTextStyle',
+        navigationBarTitleText: 'Weapp Starter',
+    },
+})
 </script>
 
 <style lang="css">
-  @import "./app.css";
+@import './app.css';
 </style>

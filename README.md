@@ -7,12 +7,14 @@ A minimal WeChat Mini Program starter template with Vite and Vue 3 SFC.
 ## Quick Start
 
 ### Development
+
 ```bash
 pnpm dev              # Start dev server
 pnpm dev --open       # Start and open WeChat DevTools
 ```
 
 ### Build
+
 ```bash
 pnpm build
 pnpm open             # Open WeChat DevTools
