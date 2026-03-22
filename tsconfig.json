@@ -1,4 +1,10 @@
 {
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
     "references": [
         {
             "path": "./.weapp-vite/tsconfig.app.json"
