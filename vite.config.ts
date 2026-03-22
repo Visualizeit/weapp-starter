@@ -3,7 +3,7 @@ import path from 'node:path'
 import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite'
 import { defineConfig } from 'weapp-vite/config'
 
-export default defineConfig(() => ({
+export default defineConfig({
     plugins: [
         UnifiedViteWeappTailwindcssPlugin({
             cssEntries: [path.resolve(import.meta.dirname, './src/app.css')],
@@ -20,4 +20,4 @@ export default defineConfig(() => ({
         autoRoutes: true,
         srcRoot: 'src',
     },
-}))
+})

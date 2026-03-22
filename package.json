@@ -20,7 +20,6 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss": "^4.2.2",
-        "@total-typescript/tsconfig": "^1.0.4",
         "@types/node": "^25.5.0",
         "lefthook": "^2.1.4",
         "miniprogram-api-typings": "^5.1.2",
