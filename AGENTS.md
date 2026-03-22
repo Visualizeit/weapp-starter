@@ -8,6 +8,14 @@ In all interactions and commit messages, be extremely concise and sacrifice gram
 
 ## 技术规范
 
+### KISS Principle
+
+If unnecessary, do not add complexity:
+
+- Use component default styles
+- Avoid extra style props or className unless required
+- Keep implementations simple
+
 ### wevu 核心约束
 
 **响应式 API**
