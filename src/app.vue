@@ -1,12 +1,16 @@
 <script setup lang="ts">
-import { pages } from 'weapp-vite/auto-routes'
+import autoRoutes from 'weapp-vite/auto-routes'
+
+const routes = autoRoutes
+
 
 defineAppJson({
     componentFramework: 'glass-easel',
     darkmode: true,
-    pages,
+    pages: routes.pages,
     sitemapLocation: 'sitemap.json',
     style: 'v2',
+    subPackages: routes.subPackages,
     themeLocation: 'theme.json',
     window: {
         navigationBarBackgroundColor: '@navigationBarBackgroundColor',
